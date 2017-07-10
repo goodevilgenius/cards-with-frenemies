@@ -55,3 +55,6 @@ typings/
 .env
 
 # End of https://www.gitignore.io/api/node
+
+# Project-specific ignores
+cards.db
