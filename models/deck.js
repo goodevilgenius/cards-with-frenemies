@@ -1,4 +1,7 @@
 'use strict';
+
+/* global module */
+
 module.exports = function(sequelize, DataTypes) {
   const Deck = sequelize.define('Deck', {
 	name: {
