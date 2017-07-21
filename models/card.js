@@ -1,4 +1,7 @@
 'use strict';
+
+/* global module */
+
 module.exports = function(sequelize, DataTypes) {
   const Card = sequelize.define('Card', {
     type: {
