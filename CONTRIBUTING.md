@@ -14,12 +14,25 @@ We love pull requests from everyone. By participating in this project, you agree
 
 ## Making Changes
 
-* Create a topic branch from where you want to base your work.
-  - This is usually the master branch.
-  - Only target release branches if you are certain your fix must be on that
-    branch.
+I use the git flow workflow for working on features, and ask that you do as well when contributing.
+
+If you would like to install `git-flow`, you can use the supplied `scripts/setup.sh` to setup the necessary `git-flow` settings to match the project.
+
+Then do the following:
+
+* Create a feature branch from where you want to base your work.
+  - This should be the `develop` branch
+  - It should be named `feature/<name>`
+  - If you have `git flow` installed, simply run `git flow feature start <name>`.
 * Make commits of logical units.
 * Check for unnecessary whitespace with `git diff --check` before committing.
+
+## Pull Request
+
+Once you are satisfied with your work, submit a pull request from your feature branch to the upstream `develop` branch.
+
+I will review your code, and potentially ask you to make changes. Once everything looks good, I'll merge it into
+`develop`, and it will be included in the next release.
 
 ## Copyrighted material
 

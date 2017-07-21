@@ -1,0 +1,16 @@
+{
+  "name": "cards-with-frenemies",
+  "version": "0.0.1",
+  "description": "Online clone of popular card game",
+  "main": "index.js",
+  "repository": "git@github.com:goodevilgenius/cards-with-frenemies.git",
+  "author": "Dan Jones <dan@danielrayjones.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.3",
+    "sequelize": "^4.3.0",
+    "socket.io": "^2.0.3",
+    "sqlite3": "^3.1.8"
+  }
+}
