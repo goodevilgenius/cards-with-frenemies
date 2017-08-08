@@ -14,42 +14,7 @@ app.get('/', function (req, res) {
 	res.send('Hello World!');
 });
 
-app.get('/decks', function (req, res) {
-	db.Deck.findAll()
-		.then(function (decks) {
-			res.json(decks);
-		});
-});
-
-app.get('/decks-cards', function (req, res) {
-	db.Deck.findAll({
-		include: [{model: db.Card}]
-	})
-	.then(function (decks) {
-		res.json(decks);
-	});
-});
-
-app.get('/deck/:id', function (req, res) {
-	db.Deck.find({
-		where:{
-			id: req.params.id
-		}
-	}).then(function (deck) {
-		res.json(deck);
-	});
-});
-
-app.get('/deck/:id/cards', function (req, res) {
-	db.Card.findAll({
-		where: {
-			deck_id: req.params.id
-		},
-		include: [{model: db.Deck}]
-	}).then(function (cards) {
-		res.json(cards);
-	});
-});
+app.use('/api', require('./routes/api'));
 
 db.sequelize.sync({force: true})
 	.then(parse_decks)
