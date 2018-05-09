@@ -10,6 +10,8 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
+app.use(require('body-parser').json());
+
 app.get('/', function (req, res) {
 	res.send('Hello World!');
 });

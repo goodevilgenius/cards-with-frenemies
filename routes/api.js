@@ -5,8 +5,6 @@
 const router = require('express').Router();
 
 router.use(require('./api/cards'));
-
-// @todo gameplay routes
-// with authentications
+router.use(require('./api/game'));
 
 module.exports = router;
