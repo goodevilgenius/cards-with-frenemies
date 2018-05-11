@@ -2,8 +2,9 @@
 
 /* global module */
 
-const idGen = require('../libs/idgen');
-var Promise = require('bluebird');
+function idGen() {
+  return Math.floor(Math.random() * 99000) + 1000;
+}
 
 module.exports = function(sequelize, DataTypes) {
   const Game = sequelize.define('Game', {
