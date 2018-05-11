@@ -10,7 +10,9 @@ router.post('/games', function (req, res) {
         name: req.body.name
     });
 
-    game.save().then(() => res.json(game));
+    game.save()
+        .then(() => res.json(game))
+        .catch(err => res.status(500).json({message: err.message}));
 });
 
 module.exports = router;
