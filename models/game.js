@@ -10,7 +10,13 @@ module.exports = function(sequelize, DataTypes) {
   const Game = sequelize.define('Game', {
     name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
+      defaultValue: 'Game'
+    },
+    started: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
     }
   }, {
     underscored: true,
@@ -33,6 +39,11 @@ module.exports = function(sequelize, DataTypes) {
 
   Game.associate = function(models) {
       Game.belongsToMany(models.Deck, {through: 'GameDecks'});
+  };
+
+  Game.prototype.start = function() {
+    this.update({started: true});
+    // gameserver.start(this);
   };
 
   return Game;
