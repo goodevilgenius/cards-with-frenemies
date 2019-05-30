@@ -1,9 +1,16 @@
 # Change Log
 
+## [v0.0.5](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.5) (2019-05-30)
+[Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.4...v0.0.5)
+
+- [Security] Bump sequelize from 4.3.0 to 5.3.0
+
 ## [v0.0.4](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.4) (2019-05-30)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.3...v0.0.4)
 
-- Bump sqlite3 from 3.1.8 to 4.0.8
+**Merged pull requests:**
+
+- Bump sqlite3 from 3.1.8 to 4.0.8 [\#1](https://github.com/goodevilgenius/cards-with-frenemies/pull/1) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 
 ## [v0.0.3](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.3) (2019-05-30)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.2...v0.0.3)
