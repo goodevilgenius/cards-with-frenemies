@@ -1,10 +1,20 @@
 # Change Log
 
+## [v0.0.7](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.7) (2019-05-30)
+[Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.6...v0.0.7)
+
+- [Security] Bump sshpk from 1.13.1 to 1.16.1
+
 ## [v0.0.6](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.6) (2019-05-30)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.5...v0.0.6)
 
-- Fixed #14: Unhandled rejection SequelizeUniqueConstraintError: Validation error
-- [Security] Bump forwarded from 0.1.0 to 0.1.2
+**Fixed bugs:**
+
+- Unhandled rejection SequelizeUniqueConstraintError: Validation error [\#14](https://github.com/goodevilgenius/cards-with-frenemies/issues/14)
+
+**Merged pull requests:**
+
+- \[Security\] Bump forwarded from 0.1.0 to 0.1.2 [\#5](https://github.com/goodevilgenius/cards-with-frenemies/pull/5) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 
 ## [v0.0.5](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.5) (2019-05-30)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.4...v0.0.5)
