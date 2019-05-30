@@ -1,12 +1,19 @@
 # Change Log
 
-## [v0.0.3](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.3) (2019-03-30)
+## [v0.0.4](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.4) (2019-05-30)
+[Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.3...v0.0.4)
 
-- [Security] Bump extend from 3.0.1 to 3.0.2
+- Bump sqlite3 from 3.1.8 to 4.0.8
 
+## [v0.0.3](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.3) (2019-05-30)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.2...v0.0.3)
 
+**Merged pull requests:**
+
+- \[Security\] Bump extend from 3.0.1 to 3.0.2 [\#3](https://github.com/goodevilgenius/cards-with-frenemies/pull/3) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
 ## [v0.0.2](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.2) (2017-07-21)
+[Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.1...v0.0.2)
 
 * `index.js`
 * Sequelize
@@ -15,7 +22,6 @@
 * Add card parser
 * A few initial testing API routes
 * Setup script
-[Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.1...v0.0.2)
 
 ## [v0.0.1](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.1) (2017-07-10)
 
