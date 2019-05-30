@@ -24,6 +24,7 @@ module.exports = function(sequelize, DataTypes) {
   Card.associate = function(models) {
     Card.belongsTo(models.Deck, {
       foreignKey: {
+        name: 'deck_id',
         allowNull: false
       },
       onDelete: 'CASCADE'
