@@ -1,9 +1,21 @@
 # Change Log
 
+## [v0.0.8](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.8) (2019-06-28)
+[Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.7...v0.0.8)
+
+**Merged pull requests:**
+
+- Bump sequelize from 5.3.0 to 5.9.0 [\#21](https://github.com/goodevilgenius/cards-with-frenemies/pull/21) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump sqlite3 from 4.0.8 to 4.0.9 [\#17](https://github.com/goodevilgenius/cards-with-frenemies/pull/17) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump express from 4.15.3 to 4.17.1 [\#8](https://github.com/goodevilgenius/cards-with-frenemies/pull/8) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump socket.io from 2.0.3 to 2.2.0 [\#6](https://github.com/goodevilgenius/cards-with-frenemies/pull/6) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
 ## [v0.0.7](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.7) (2019-05-30)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.6...v0.0.7)
 
-- [Security] Bump sshpk from 1.13.1 to 1.16.1
+**Merged pull requests:**
+
+- \[Security\] Bump sshpk from 1.13.1 to 1.16.1 [\#9](https://github.com/goodevilgenius/cards-with-frenemies/pull/9) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 
 ## [v0.0.6](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.6) (2019-05-30)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.5...v0.0.6)
