@@ -1,5 +1,16 @@
 # Change Log
 
+## [v0.0.9](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.9) (2019-07-11)
+[Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.8...v0.0.9)
+
+**Merged pull requests:**
+
+- Bump sequelize from 5.9.4 to 5.10.0 [\#26](https://github.com/goodevilgenius/cards-with-frenemies/pull/26) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- \[Security\] Bump lodash from 4.17.11 to 4.17.14 [\#25](https://github.com/goodevilgenius/cards-with-frenemies/pull/25) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump sequelize from 5.9.2 to 5.9.4 [\#24](https://github.com/goodevilgenius/cards-with-frenemies/pull/24) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump sequelize from 5.9.1 to 5.9.2 [\#23](https://github.com/goodevilgenius/cards-with-frenemies/pull/23) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Bump sequelize from 5.9.0 to 5.9.1 [\#22](https://github.com/goodevilgenius/cards-with-frenemies/pull/22) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
 ## [v0.0.8](https://github.com/goodevilgenius/cards-with-frenemies/tree/v0.0.8) (2019-06-28)
 [Full Changelog](https://github.com/goodevilgenius/cards-with-frenemies/compare/v0.0.7...v0.0.8)
 
