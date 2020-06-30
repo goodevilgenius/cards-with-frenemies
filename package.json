@@ -11,6 +11,6 @@
     "express": "^4.17.1",
     "sequelize": "^6.2.3",
     "socket.io": "^2.3.0",
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^4.2.0"
   }
 }
