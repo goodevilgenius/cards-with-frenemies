@@ -10,7 +10,7 @@
     "bluebird": "^3.7.2",
     "express": "^4.17.1",
     "sequelize": "^6.2.3",
-    "socket.io": "^2.3.0",
+    "socket.io": "^3.0.0",
     "sqlite3": "^4.2.0"
   }
 }
