@@ -1,6 +1,6 @@
 {
   "name": "cards-with-frenemies",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Online clone of popular card game",
   "main": "index.js",
   "repository": "git@github.com:goodevilgenius/cards-with-frenemies.git",
@@ -9,8 +9,8 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "express": "^4.17.1",
-    "sequelize": "^6.2.3",
-    "socket.io": "^2.3.0",
-    "sqlite3": "^4.2.0"
+    "sequelize": "^6.3.5",
+    "socket.io": "^3.0.4",
+    "sqlite3": "^5.0.0"
   }
 }
